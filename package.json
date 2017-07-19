@@ -1,0 +1,26 @@
+{
+  "name": "figuregame",
+  "version": "1.0.0",
+  "description": "figuregame",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.7",
+    "sinon": "^2.3.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "figuregame"
+  },
+  "repository": {
+    "type": "git",
+    "url": "figureGame"
+  },
+  "keywords": [
+    "master"
+  ],
+  "author": "XiongShasha",
+  "license": "ISC"
+}
