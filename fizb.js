@@ -39,6 +39,5 @@ function guessNumber() {
     }
     return `${countA}A${countB}B`;
 }
-
 module.exports.randNumStr = randNumStr;
 module.exports.guessNumber = guessNumber;

@@ -1,8 +1,5 @@
-/**
- * Created by xiongshasha on 17-7-14.
- */
-'use strict';
 const readlineSync = require('readline-sync');
+
 function randNumStr(min, max, num) {
     let arr = [],
         t;
@@ -25,6 +22,7 @@ function randNumStr(min, max, num) {
 
 function guessNumber() {
     const systemRandomNumStr = this.randNumStr(1, 9, 4);
+    //const systemRandomNumStr = randNumStr(1, 9, 4);
     const inputGuessedNumStr = readlineSync.question(`System generate random number is ${systemRandomNumStr}\nPlease input your guessed number: `);
     let totalCount = 0,
         countA = 0,
@@ -42,5 +40,3 @@ function guessNumber() {
     }
     return `${countA}A${countB}B`;
 }
-module.exports.randNumStr = randNumStr;
-module.exports.guessNumber = guessNumber;
